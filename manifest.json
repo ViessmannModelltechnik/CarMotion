@@ -1,0 +1,319 @@
+{
+  "schema": 1,
+  "revision": 7,
+  "updated": "2026-11-27",
+
+  "carmanager": {
+    "releases": [
+	  {
+        "version": "1.36.20",
+        "description": { 
+			"de": "<ol><li><p><strong>Online-Update-Repository</strong>: Firmware- und CarManager Updates k&ouml;nnen jetzt mit einem einzigen Klick direkt aus dem CarManager heraus installiert werden.</p></li><li><p><strong>Unterst&uuml;tzung f&uuml;r den Muldenkipper hinzugef&uuml;gt</strong>: Einschlie&szlig;lich einer neuen Benutzeroberfl&auml;che mit Einstellungen und Beschreibungen der verf&uuml;gbaren Funktionen.</p></li></ol>", 
+			"en": "<ol><li><p><strong>Online update repository:</strong> Firmware and application updates can now be installed with a single click directly from within the application.</p></li><li><p><strong>Added dump truck support:</strong> Includes a new user interface with settings and descriptions of the available functions.</p></li></ol>" },
+        "experimental": 0,
+        "denominator": "1.36",
+        "artifacts": [
+          {
+			"date" : "2026-11-26",
+            "os": "windows",
+            "arch": "x64",
+            "part": "installer",
+            "filename": "CarManager 1.36.20 setup.exe",
+            "url": "mr2PfyOGVWD+3OUMQbMtHjwdeN6f18AHaZ2uyW1jD4QqVILLa9Bp+fsdF4bnySnk7fQ6wJTZDagkmCFXkmRpKpR6YcXNLz6uRqUWo/hbGVHygrLeChDgI3m7C0RUi5RN83BGlNAMOn+8kP4K/moWx600bSjCu5mvQ4916rH1rZYtWLUYapeKdJEJeVOqHTmc/vpfzId9asNTmu0bQyE=",
+			"bytes": 8489976,
+			"sha256": "45a223ba59c972524d43af65df5d696345f22c1351035c7b6ec1a2a1a418f787"
+          }
+        ]
+      },
+	  {
+        "version": "1.36.14",
+        "description": { 
+			"de": "<ol><li><p><strong>Online-Update-Repository</strong>: Firmware- und CarManager Updates k&ouml;nnen jetzt mit einem einzigen Klick direkt aus dem CarManager heraus installiert werden.</p></li><li><p><strong>Unterst&uuml;tzung f&uuml;r den Muldenkipper hinzugef&uuml;gt</strong>: Einschlie&szlig;lich einer neuen Benutzeroberfl&auml;che mit Einstellungen und Beschreibungen der verf&uuml;gbaren Funktionen.</p></li></ol>", 
+			"en": "<ol><li><p><strong>Online update repository:</strong> Firmware and application updates can now be installed with a single click directly from within the application.</p></li><li><p><strong>Added dump truck support:</strong> Includes a new user interface with settings and descriptions of the available functions.</p></li></ol>" },
+        "experimental": 1,
+        "denominator": "1.36",
+        "artifacts": [
+          {
+			"date" : "2026-11-17",
+            "os": "windows",
+            "arch": "x64",
+            "part": "installer",
+            "filename": "CarManager 1.36.14 setup.exe",
+            "url": "Xlni7SXMVuzFnc6Sh71VgqWMbCcGBxUvzWsw+i81Dbrxgu57MbvANzGdxxjL3CABI8VllE4Fk+fRG52C3eBYdXECmgcxi87X3rT56DPdHQOWtVOufs84ZLLlrVs1moxI9kTwxiKZKdXB1gohnorG26MBvL3QXG6ErSa+7b2/Mk3lWuFXep0K0y0C71PwB6DoQJBCA3rQDbh+Eq6iSlU=",
+			"bytes": 8462137,
+			"sha256": "598d5c78d2cd9e5d57cf768b802320e585f75a7efb3aab4f96f0804f53c7b766"
+          }
+        ]
+      },
+      {
+        "version": "1.36",
+        "description": { 
+			"de": "<ol><li><strong>Unterst&uuml;tzung f&uuml;r den IR Scanner (8406) hinzugef&uuml;gt</strong>, einschlie&szlig;lich einer neuen Benutzeroberfl&auml;che mit Einstellungen und Funktionsbeschreibungen. Zus&auml;tzliche Benutzeroberfl&auml;chen f&uuml;r neue Features bei den Fahrzeugen, Charger, und Abzweig.&nbsp;</li><li><strong>Ger&auml;teeinstellungen auch ohne angeschlossenes Programmierger&auml;t anzeigen</strong>&nbsp;<br />Ist kein Programmierger&auml;t angeschlossen, bleibt die Benutzeroberfl&auml;che jetzt aktiv. Es kann ein beliebiges unterst&uuml;tztes CarMotion-Ger&auml;t ausgew&auml;hlt werden, um dessen Einstellungen, Funktionen und M&ouml;glichkeiten auch ohne angeschlossene Hardware anzusehen.&nbsp;</li><li><strong>Fehlerbehebung:</strong> Ein Problem mit Fahrzeug-Losfahrverz&ouml;gerungen &uuml;ber 15 Sekunden wurde behoben&nbsp;</li><li><strong>Unterst&uuml;tzung der zus&auml;tzlichen Ausg&auml;nge der Universalelektronik.&nbsp;</strong></li><li><strong>Neue Optionen unter &bdquo;Verhalten bei langem Aufenthalt&ldquo;&nbsp;</strong><br />Jetzt k&ouml;nnen auch die Bremsleuchten deaktiviert oder automatisch ein Makro ausgef&uuml;hrt werden. Fahrzeug-Firmware ab Version 1.50 erforderlich</li></ol>", 
+			"en": "<ol><li><strong>Added support for the IR Scanner (8406)</strong>, featuring a new user interface with settings and function descriptions. Additional user interface for new features of vehicles, inductive charger, und turnout.&nbsp;</li><li><strong>Browse device settings without connecting hardware</strong>&nbsp;<br />When no programmer is connected, the user interface now remains available. You can select any supported CarMotion device to explore its settings, features and available options, even without any hardware connected.&nbsp;</li><li><strong>Bug fix: </strong>Fixed an issue where vehicle departure delays greater than 15 seconds were not handled correctly.&nbsp;</li><li><strong>Support </strong>for the additional outputs of the Universal Electronics module.&nbsp;</li><li><strong>New &quot;Behaviour during long stop&quot; options for vehicles</strong>&nbsp;<br />It is now possible to disable the brake lights or automatically execute a macro while the vehicle is stopped.&nbsp;Vehicle firmware version 1.50 or later is required.</li></ol>" },
+        "experimental": 0,
+        "denominator": "1.36",
+        "artifacts": [
+          {
+			"date" : "2026-09-28",
+            "os": "windows",
+            "arch": "x64",
+            "part": "installer",
+            "filename": "CarManager 1.36 x64.exe",
+            "url": "https://viessmann-modell.com/downloads/file/01a0e7d62b9073dc9e2fb19b5fe544f2",
+            "bytes": 31441952,
+            "sha256": "199a1041555417e73c41fd4806773dd331f382a13de6a0b9fa5e0afc4e0e1314"
+          },
+		  {
+			"date" : "2026-09-28",
+            "os": "MacOS",
+            "arch": "x64",
+            "part": "installer",
+            "filename": "CarManager 1.36.dmg",
+            "url": "https://viessmann-modell.com/downloads/file/01a0e7f27dd473b986fd7f404bd8bd90",
+			"bytes": 48709120,
+			"sha256": "275039e0920e1470a6527d54ae8ae51c1e4dbe940f8445f0ad608822586eed37"
+          }
+        ]
+      },
+      {
+        "version": "1.32",
+        "description": {
+			"de": "<ol><li><strong>Unterst&uuml;tzung f&uuml;r die Rollende Landstra&szlig;e</strong> hinzugef&uuml;gt, einschlie&szlig;lich einer neuen Benutzeroberfl&auml;che f&uuml;r den IR Mini mit Einstellungen und Funktionsbeschreibungen. Die Rollende Landstra&szlig;e ist ein System, bei dem Stra&szlig;enfahrzeuge auf Eisenbahnwagen transportiert werden. Zur Aktivierung dieses Modus wird ein IR Mini ab Version 1.08 ben&ouml;tigt.</li><li><strong>Unterst&uuml;tzung f&uuml;r benutzerdefinierte Raddurchmesser</strong> hinzugef&uuml;gt. Durch die Einstellung des Raddurchmessers werden die Parameter f&uuml;r Geschwindigkeits- und Streckenberechnung automatisch berechnet. Fahrzeug-Firmware ab Version 1.48 erforderlich.</li><li>Makros 12, 13 und 14 k&ouml;nnen jetzt mit Abzweigen verwendet werden.</li><li>Beim Hochladen eines Backups kann nun ausgew&auml;hlt werden, welche Teile des Speichers erhalten bleiben sollen, z. B. Beschreibung oder DCC-Adresse.</li><li>IR Mini: Benutzeroberfl&auml;che f&uuml;r analoge Ausf&uuml;hrungsverz&ouml;gerung hinzugef&uuml;gt.</li><li>IR Mini: Betriebsmodi mit Ampeln &uuml;bersichtlicher gestaltet, separate Option f&uuml;r Master-/Slave-Betrieb hinzugef&uuml;gt sowie eine ausf&uuml;hrliche Anleitung mit zus&auml;tzlichen Anschlussbeispielen f&uuml;r Kreuzungen addiert.</li></ol>", 
+			"en": "<ol><li><strong>Added support for the rolling highway</strong>, featuring a new user interface for the IR Mini with settings and function descriptions. A rolling highway is a system in which road vehicles are carried on rail wagons for transport. To activate this mode, an IR Mini with at least version 1.08 is required.</li><li><strong>Added support for custom wheel sizes</strong>. By setting the wheel diameter, the parameters for speed and distance calculation are computed. Vehicle firmware version 1.48 or later is required.</li><li>Macros 12, 13, and 14 can now be used with turnouts.</li><li>When uploading a backup, it is now possible to select which parts of the memory should be preserved, for example the description or the DCC address.</li><li>IR Mini: Added interface for analogue input delay.</li><li>IR Mini: Improved clarity of traffic light operation modes, added a separate option for master/slave operation, and included a detailed user manual with additional connection examples for intersections.</li></ol>" },
+        "experimental": 0,
+        "denominator": "1.32",
+        "artifacts": [
+          {
+		    "date" : "2026-04-13",
+            "os": "windows",
+            "arch": "x64",
+            "part": "installer",
+            "filename": "CarManager 1.32 x64.exe",
+            "url": "https://viessmann-modell.com/downloads/file/01a0e7d69100714c9f659a0734b27c4b",
+            "bytes": 30520760,
+            "sha256": "68c9008fa55f1738c5562eb7b268b11057c27ec211772b3c09bdd100e906863f"
+          },
+		  {
+		    "date" : "2026-04-13",
+            "os": "MacOS",
+            "arch": "x64",
+            "part": "installer",
+            "filename": "CarManager 1.32.dmg",
+            "url": "https://viessmann-modell.com/downloads/file/01a0e7d6910173c782b1ecc51ca5c72e",
+			"bytes": 53671642,
+			"sha256": "b1b99ca508d21db80b054da0aaf20af5b4fbb40074f05af1dbd3a1dbb1ea28b3"
+          }
+        ]
+      },
+	{
+        "version": "1.30",
+        "description": {
+			"de": "<ol><li><strong>Unterst&uuml;tzung f&uuml;r den Abzweig</strong> (8446 und 8448), mit einer komplett neuen Benutzeroberfl&auml;che f&uuml;r Einstellungen und Funktionsbeschreibungen.&nbsp;</li><li><strong>Konfigurationsoptionen f&uuml;r die 5099-Ampeln</strong> &uuml;ber den IR Mini hinzugef&uuml;gt. Erfordert IR Mini Version 1.06 oder neuer.</li></ol>", 
+			"en": "<ol><li><strong>Added support for the turnout</strong> (8446 and 8448), featuring a new user interface for settings and function descriptions.&nbsp;</li><li><strong>Added configuration options for the 5099 traffic lights</strong> via the IR Mini. Requires IR Mini 1.06 or newer.</li></ol>" },
+        "experimental": 0,
+        "denominator": "1.30",
+        "artifacts": [
+          {
+		    "date" : "2025-12-02",
+            "os": "windows",
+            "arch": "x64",
+            "part": "installer",
+            "filename": "CarManager 1.30 x64.exe",
+            "url": "https://viessmann-modell.com/en/downloads/file/019d86fd75fa7213a1fa7ca7e8030cb8",
+			"bytes": 28544768,
+			"sha256": "515c4991514308c482222b9392dc9bbe499f6c4eb4cba59d3e693c4bc4bbaada"
+          },
+          {
+		    "date" : "2025-12-02",
+            "os": "MacOS",
+            "arch": "x64",
+            "part": "installer",
+            "filename": "CarManager 1.30.dmg",
+            "url": "https://viessmann-modell.com/downloads/file/019d86fd75fb71cf806f043425d6c0ff",
+			"bytes": 54724904,
+			"sha256": "4e498525e933125eb9c15aff65e412b0608deb669d98ab2adba2302f1912c957"
+          }		  
+        ]
+      }
+    ]
+  },
+
+  "firmware": {
+    "vehicle": [
+	  {
+	    "version": "1.54",
+		"date" : "2026-11-19",
+		"description": { 
+			"de": "<ul><li>Unterst&uuml;tzung f&uuml;r die Funktionen des Kippers addiert.</li></ul>", 
+			"en": "<ul><li>Added support for the dump truck.</li></ul>" },
+        "experimental": 0,
+		"exclusive_to": ["8601", "8602", "8603"],
+        "requires_carmanager": "1.36",
+		"url": "https://www.dropbox.com/scl/fi/ye1klyquw7341wd4luwb9/car-1.54.vgu?rlkey=egudes77mikizsvzc7jqvvtde&dl=1",
+		"bytes": 32255,
+		"sha256": "2505485d8598c98409061248c97cf813790412186020eb13c3dc1ad9d8d88670"
+	  },
+      {
+        "version": "1.52",
+		"date" : "2026-09-28",
+        "description": { 
+			"de": "<ol><li><strong>Fehlerbehebung:</strong> Bei angeschlossenem Anh&auml;nger wurde die Fahrzeugl&auml;nge &uuml;ber Infrarot nicht korrekt &uuml;bertragen.&nbsp;</li><li><strong>Unterst&uuml;tzung der zus&auml;tzlichen Ausg&auml;nge der Universalelektronik.&nbsp;</strong></li><li><strong>Stoppbefehl f&uuml;r DC Car</strong> Funktionsbaustein ist jetzt wieder unterst&uuml;tzt.&nbsp;</li><li><strong>Neue Optionen f&uuml;r &bdquo;Verhalten bei langem Aufenthalt&ldquo; </strong>Jetzt k&ouml;nnen auch die Bremsleuchten deaktiviert oder automatisch ein Makro ausgef&uuml;hrt werden.&nbsp;</li><li><strong>Die zuf&auml;llige Ausf&uuml;hrung von Makros unterst&uuml;tzt jetzt auch Infrarotbefehle</strong>, nicht nur Magnetbefehle.&nbsp;</li><li><strong>Einsatzfahrzeuge:</strong> Die Option zum Ignorieren roter Ampeln (IR-Mini-Option &bdquo;von Einsatzfahrzeugen ignoriert&ldquo;) funktioniert jetzt auch mit Magneten. Wird ein Bremsbefehl mit aktivierter Option gesendet, darf das Fahrzeug einen Nordmagneten ignorieren.&nbsp;</li><li><strong>Sichererer und robusterer RoLa-Modus: </strong>Fahrzeuge im RoLa-Modus ignorieren jetzt generelle IR-Losfahrbefehle und k&ouml;nnen nur noch mit einem &bdquo;Rollende Landstra&szlig;e, Abfahren&ldquo;-Befehl wieder gestartet werden. Au&szlig;erdem sind sie jetzt unempfindlicher gegen&uuml;ber Kontaktverlust mit den Magneten durch Ersch&uuml;tterungen w&auml;hrend des Transports auf den Wagen.</li></ol><p>&nbsp;</p>", 
+			"en": "<ol><li><strong>Added support for the IR Scanner (8406)</strong>, featuring a new user interface with settings and function descriptions. Additional user interface for new features of vehicles, inductive charger, und turnout.&nbsp;</li><li><strong>Browse device settings without connecting hardware</strong>&nbsp;<br />When no programmer is connected, the user interface now remains available. You can select any supported CarMotion device to explore its settings, features and available options, even without any hardware connected.&nbsp;</li><li><strong>Bug fix: </strong>Fixed an issue where vehicle departure delays greater than 15 seconds were not handled correctly.&nbsp;</li><li><strong>Support </strong>for the additional outputs of the Universal Electronics module.&nbsp;</li><li><strong>New &quot;Behaviour during long stop&quot; options for vehicles</strong>&nbsp;<br />It is now possible to disable the brake lights or automatically execute a macro while the vehicle is stopped.&nbsp;Vehicle firmware version 1.50 or later is required.</li></ol>" },
+        "experimental": 0,
+        "requires_carmanager": "1.36",
+        "url": "https://www.dropbox.com/scl/fi/6zm3z3s8q4tzfero298g8/car-1.52.vgu?rlkey=2z1svi5tnm6jt5hz4xfr90a5r&dl=1",
+		"bytes": 32255,
+		"sha256": "8936fc0c4f60b38b1f39c035df8a00f8165d3845591c48d965fd2d7a9ef273ef"
+      },
+	  {
+        "version": "1.48",
+		"date" : "2026-04-13",
+        "description": { 
+			"de": "<ol><li><strong>Unterst&uuml;tzung f&uuml;r die Rollende Landstra&szlig;e hinzugef&uuml;gt.</strong> Die Rollende Landstra&szlig;e ist ein System, bei dem Stra&szlig;enfahrzeuge auf Eisenbahnwagen transportiert werden. Zur Aktivierung dieses Modus wird ein IR Mini ab Version 1.08 ben&ouml;tigt.</li><li><strong>Unterst&uuml;tzung f&uuml;r benutzerdefinierte Raddurchmesser hinzugef&uuml;gt.</strong> Die Fahrzeuge verwenden nun eine flexible Geschwindigkeits- und Streckenberechnung basierend auf dem Raddurchmesser, der im CarManager eingestellt werden kann.</li><li><strong>DCC-Zuverl&auml;ssigkeit verbessert.</strong> Aufgrund von Optimierungsproblemen hatte die vorherige Version (1.44) bei einigen Zentralen eine geringere Erkennungsrate von DCC-Befehlen. Dies wurde nun behoben.</li><li>Seltener Fehler behoben, der bei induktivem Laden in Kombination mit einem S&uuml;dmagneten zu unbeabsichtigtem Spurwechsel f&uuml;hren konnte. Wurde ein S&uuml;dmagnet zum Bremsen vor einem Charger verwendet und so positioniert, dass w&auml;hrend des Ladevorgangs das folgende Fahrzeug durch die infrarotbasierte Abstandsregelung genau auf dem Magneten zum Stehen kam, konnte dieses Fahrzeug in seltenen F&auml;llen den einzelnen S&uuml;dmagneten als zwei Magneten interpretieren und den entsprechenden Befehl ausf&uuml;hren (standardm&auml;&szlig;ig Spurwechsel).</li><li>Das &Uuml;berfahren eines weiteren S&uuml;dmagneten w&auml;hrend des Bremsens verl&auml;ngert nun wieder die Bremsstrecke. Dieses Verhalten war urspr&uuml;nglich vorhanden, wurde jedoch in einem fr&uuml;heren Update versehentlich entfernt.</li><li>Verhalten beim Abschalten der Dachleuchten w&auml;hrend l&auml;ngerer Aufenthalte korrigiert. In einer fr&uuml;heren Version wurden stattdessen f&auml;lschlicherweise die Blinker deaktiviert.</li></ol>", 
+			"en": "<ol><li><strong>Added support for the rolling highway.</strong> A rolling highway is a system in which road vehicles are carried on rail wagons for transport. To activate this mode, an IR Mini with at least version 1.08 is required.</li><li><strong>Added support for custom wheel sizes.</strong> Vehicles now use a flexible speed and distance calculation based on the wheel diameter, which can be configured in the CarManager.</li><li><strong>Improved DCC reliability.</strong> Due to optimisation issues, the previous version (1.44) had a lower detection rate of DCC commands with some command stations. This has now been fixed.</li><li>Fixed a rare bug causing unintended lane switching when using inductive charging in combination with a South magnet. If a South magnet was used for braking before a charger and positioned such that, during charging, the following vehicle stopped exactly on the magnet due to the infrared adaptive cruise control, it could in rare cases interpret the single South magnet as two magnets and execute the corresponding command (lane switching by default).</li><li>Encountering another South magnet while braking now extends the braking distance limit again. This behaviour existed previously but was accidentally removed in an earlier update.</li><li>Corrected behaviour of switching off roof beacons during long stops. A previous update caused this option to switch off the turn indicators instead.</li></ol>" },
+        "experimental": 0,
+        "requires_carmanager": "1.36",
+        "url": "https://www.dropbox.com/scl/fi/vqqt7of7ym0t6bbonbghu/car-1.48.vgu?rlkey=r7bxs893008lcq0tn0z65bajh&dl=1",
+		"bytes": 32255,
+		"sha256": "51d30317a11f5f52c1b621655f83ad59e427eadd3465773275fc1a4ca4676c91"
+      },
+	  {
+        "version": "1.44",
+		"date" : "2025-08-29",
+        "description": { 
+			"de": "<p><strong>1. Unterst&uuml;tzung f&uuml;r Soundmodule hinzugef&uuml;gt&nbsp;</strong></p><p>Fahrzeuge k&ouml;nnen jetzt die Sound-Nachr&uuml;stsets erkennen und mit ihnen kommunizieren. &Uuml;ber Makros, die Fernbedienung und andere Steuerungsoptionen lassen sich verschiedene Sounds ausl&ouml;sen.&nbsp;</p><p><strong>2. Option zum sofortigen Abschluss eines Spurwechsels f&uuml;r den InduktivCharger&nbsp;</strong></p><p>Die Option, einen Spurwechsel sofort abzuschlie&szlig;en, ist nun auch f&uuml;r den InduktivCharger verf&uuml;gbar. Diese Option muss in den Einstellungen des Chargers individuell aktiviert werden.&nbsp;</p><p><strong>3. Automatische Helligkeitsanpassung des Erweiterungsausgangs&nbsp;</strong></p><p>Wenn der Hochspannungsausgang f&uuml;r den Erweiterungsausgang variabel betrieben wird (was eine sanftere Motorsteuerung bei sehr niedrigen Geschwindigkeiten erm&ouml;glicht), schwankte bisher auch die Helligkeit abh&auml;ngig von der Spannung. Eine neue Funktion kompensiert nun diese Schwankungen und h&auml;lt die Helligkeit konstant.&nbsp;</p><p><strong>4. Erweiterte Optionen f&uuml;r den Erweiterungsausgang&nbsp;</strong></p><p>Der Erweiterungsausgang kann jetzt gezielt das Abblendlicht, Fernlicht oder das Bremslicht kopieren &ndash; unabh&auml;ngig von anderen Funktionen, die dieselben LEDs ansteuern. Zus&auml;tzlich steht eine neue benutzerdefinierte Sequenz mit frei einstellbaren Zeiten zur Verf&uuml;gung.</p><p>&nbsp;</p><p>&nbsp;</p>", 
+			"en": "<p><strong>1. Support for sound modules added&nbsp;</strong></p><p>Vehicles can now detect and communicate with sound retrofit kits. Macros, the remote controller, and other control options can be used to trigger various sounds.&nbsp;</p><p><strong>2. Immediate completion of traffic lane switch now available for the Inductive Charger&nbsp;</strong></p><p>The option to complete a traffic lane change immediately can now be enabled for the Inductive Charger as well. It must be activated individually in the charger's settings.&nbsp;</p><p><strong>3. Automatic brightness adjustment for the expansion output to compensate for variable voltage</strong>&nbsp;</p><p>When the high-voltage output for the expansion output is variable (to allow smoother motor control at very low speeds), the brightness of the expansion output used to vary depending on the voltage. A new option now automatically adjusts the output to compensate for these voltage differences, keeping the brightness constant.&nbsp;</p><p><strong>4. New options for the expansion output</strong>&nbsp;</p><p>The expansion output can now individually copy the low beam, high beam, or brake lights, independent from other functions that affect the same LEDs. A new custom sequence option is also available, with adjustable timings.</p>" },
+        "experimental": 0,
+        "requires_carmanager": "1.36",
+        "url": "https://www.dropbox.com/scl/fi/ewknhil7d43cp04xq538k/car-1.44.vgu?rlkey=fjd6vbgukc74tw1izj3qve8na&dl=1",
+		"bytes": 32255,
+		"sha256": "6691cc419373686dfc6cdbdf1392c6a4957d355d853e3e7656ecf83aee0fef99"
+      }
+    ],
+    "ir-mini": [
+      {
+        "version": "1.08",
+		"date" : "2026-04-13",
+        "description": { 
+			"de": "<ol><li><strong>Unterst&uuml;tzung f&uuml;r die Rollende Landstra&szlig;e hinzugef&uuml;gt,</strong> einschlie&szlig;lich einer neuen Benutzeroberfl&auml;che f&uuml;r den IR Mini mit Einstellungen und Funktionsbeschreibungen. Die Rollende Landstra&szlig;e ist ein System, bei dem Stra&szlig;enfahrzeuge auf Eisenbahnwagen transportiert werden. Der IR Mini kann diesen Modus f&uuml;r Fahrzeuge aktivieren und deaktivieren sowie verschiedene Funktionen w&auml;hrend des Betriebs steuern.</li><li><strong>Konfigurierbare Verz&ouml;gerung f&uuml;r das Steuerkabel hinzugef&uuml;gt.</strong> Diese ist unter &bdquo;Feineinstellung&ldquo; zu finden und besonders n&uuml;tzlich f&uuml;r den RoLa-Betrieb bei Steuerung &uuml;ber Gleisbelegtmelder.</li><li><strong>Unterst&uuml;tzung f&uuml;r den Wechselbetrieb der 5099-Ampel als Eingang hinzugef&uuml;gt.</strong> Wenn eine 5099-Ampel den IR Mini steuert, kann nun auch deren Wechselmodus verwendet werden. Dadurch ist eine getrennte Steuerung mehrerer IR Mini-Ger&auml;te m&ouml;glich, sodass jede Fahrtrichtung einen eigenen IR Mini erh&auml;lt, einschlie&szlig;lich Unterst&uuml;tzung f&uuml;r T-Kreuzungen.</li><li><strong>Konfigurierbare Verz&ouml;gerung f&uuml;r Fahrzeuge</strong> im Verkehrssteuerungsmodus hinzugef&uuml;gt.</li></ol>", 
+			"en": "<ol><li><strong>Added support for the rolling highway</strong>, featuring a new user interface for the IR Mini with settings and function descriptions. A rolling highway is a system in which road vehicles are carried on rail wagons for transport. The IR Mini can activate and deactivate this mode for vehicles and control various functions during operation.</li><li><strong>Added a configurable delay for the input wire.</strong> This can be found under &ldquo;Finetuning&rdquo; and is especially useful for rolling highway operation when controlled by track-occupancy detectors.</li><li><strong>Added support for the alternating mode of the 5099 traffic light as an input.</strong> If the 5099 traffic light is controlling the IR Mini, now the alternating mode of the 5099 can also be used. This enables the separate control of multiple IR Minis, so that each traffic direction has one, including support for T-junctions.</li><li><strong>Added configurable delay for vehicles</strong> in the traffic control operation mode.</li></ol>" },
+        "experimental": 0,
+        "requires_carmanager": "1.36",
+        "url": "https://www.dropbox.com/scl/fi/emlgax07q7r8misl3s8i9/IR-Mini-1.08.vgu?rlkey=3chxg5h4j7enwydnh9m6f74pe&dl=1",
+		"bytes": 6186,
+		"sha256": "f1aeab584993f990187a0bbf2f5686200fb11d640fe93803b25d8658f2c2ab1c"
+      }
+    ],
+    "inductive-charger": [
+      {
+        "version": "1.14",
+		"date" : "2026-09-28",
+        "description": { 
+			"de": "<ol><li><strong>Z&auml;hlen fremder Fahrzeuge mit als &bdquo;Detektor&ldquo; konfigurierten Steuerkabeln</strong>&nbsp;<br />Wenn nur ein Detektor-Einfahrt, aber kein Detektor-Ausfahrt konfiguriert ist, kann der Z&auml;hler nur bis 1 z&auml;hlen. Da in diesem Fall die automatische Zeit&uuml;berschreitung verwendet werden muss, beginnt die Zeit bei jedem neu erkannten Fahrzeug erneut.&nbsp;</li><li><strong>Neue Option zum sofortigen Abschlie&szlig;en des Spurwechsels bei Ankunft</strong>&nbsp;<br />Diese Option befindet sich im Fenster &bdquo;Ereignisse&ldquo; und kann abh&auml;ngig von der Fahrzeugl&auml;nge konfiguriert werden. Bisher war diese Option f&uuml;r Fahrzeuge nur bei Verwendung von Dauermagneten verf&uuml;gbar. Jetzt kann sie f&uuml;r jeden Charger individuell konfiguriert werden. In einer seriellen Ladestation ist die Option immer aktiv, wobei die Fahrzeugl&auml;nge nur f&uuml;r den Einfahr-Charger ber&uuml;cksichtigt wird, da die anderen Charger die IR-Sender deaktivieren statt Fahrspuren zu verwenden.&nbsp;</li><li><strong>Der Befehl zum Ausschalten des Fahrzeugs wird jetzt &uuml;ber die EasyChain weitergeleitet.&nbsp;</strong></li><li><strong>Vollautomatische serielle Ladestation mit IR-Scanner (8406)</strong>&nbsp;<br />Bei Verwendung eines IR-Scanners m&uuml;ssen Einfahr- und Ausfahrmodulen nicht mehr manuell konfiguriert werden. Der Scanner konfiguriert diese automatisch.&nbsp;</li><li><strong>Lange Fahrzeuge auf der vorletzten Ladeposition</strong>&nbsp;<br />Befindet sich ein langes Fahrzeug auf der vorletzten Ladeposition einer seriellen Ladestation, wird sein IR-Sender nicht mehr abgeschaltet. Dies ist notwendig, um Kollisionen zu vermeiden, da der Einfahr-Charger entgegenkommende Fahrzeuge nicht mehr anhalten kann, wenn er vom &Uuml;berhang des langen Fahrzeugs verdeckt wird. Damit der Charger erkennen kann, dass es sich um die vorletzte Position handelt, ist entweder eine vollst&auml;ndige ringf&ouml;rmige EasyChain-Verbindung mit dem Scanner erforderlich oder die Anzahl der Charger muss im Ausfahr-Charger manuell konfiguriert werden.&nbsp;</li><li><strong>Neue Option f&uuml;r die Steuerkabel:</strong>&nbsp;<br />Fahrzeug losschicken Mit dieser Option kann ein Fahrzeug unabh&auml;ngig vom aktuellen Charger-Modus weggeschickt werden.</li></ol>", 
+			"en": "<ol><li><strong>Counting foreign vehicles with input wires configured as &ldquo;Detector&rdquo;:&nbsp;</strong><br />If only a detector entry is configured, without a detector exit, the count can only increase to 1. Since the automatic timeout must be used in this case, the timeout starts again with each newly detected vehicle.&nbsp;</li><li><strong>New option to complete a lane change immediately upon arrival.&nbsp;</strong><br />This option is available in the Events window and can be configured based on the vehicle length. Previously, this option was only available for vehicles when using permanent magnets. It can now be configured individually for each Charger. In a serial charging station, the option is always active, but the vehicle length is only taken into account for the entry Charger, as the other Chargers deactivate the IR transmitters instead of using lanes.&nbsp;</li><li><strong>The command for switching vehicles off is now forwarded along the EasyChain.&nbsp;</strong></li><li><strong>Fully automatic serial charging station controlled by the IR Scanner (8406).&nbsp;</strong><br />When an IR Scanner is used, the entry and exit nodes no longer need to be configured manually. The Scanner configures them automatically.&nbsp;</li><li><strong>Long vehicles on the second-to-last charging position.</strong>&nbsp;<br />If a long vehicle is on the second-to-last charging position in a serial charging station, its IR transmitter is no longer switched off. This is necessary to avoid collisions, as the entry Charger can no longer stop oncoming vehicles if it is covered by the overhang of the long vehicle. For the Charger to determine that it is the second-to-last position, either a complete circular EasyChain connection with the Scanner is required, or the number of Chargers must be configured manually in the exit Charger.&nbsp;</li><li><strong>New option for the input wires: eject vehicle.&nbsp;</strong><br />This option allows a vehicle to be sent away regardless of the current Charger mode.</li></ol>" },
+        "experimental": 0,
+        "requires_carmanager": "1.36",
+        "url": "https://www.dropbox.com/scl/fi/kp13y35x07fbzcsiyhbkq/Inductive-Charger-1.14.vgu?rlkey=xk1vmou3bkv5cr6o7utr51j5s&dl=1",
+		"bytes": 20481,
+		"sha256": "af203c5dc934405e02a9f5b334d02c5ebca94ef5f4620f17299f0091da76aa73"
+      }
+    ],
+    "turnout": [
+      {
+        "version": "1.08",
+		"date" : "2026-09-29",
+        "description": { 
+			"de": "<ol><li><strong>Kommunikation mit dem IR-Scanner &uuml;ber ein einziges Kabel</strong> Jedes Steuerkabel kann daf&uuml;r verwendet werden, und der Abzweig erkennt den Scanner automatisch. Dadurch kann ein einzelner Scanner zwei Abzweigen mit jeweils drei m&ouml;glichen Stellungen steuern.</li><li><strong>Manuelle Einstellung der Mittelstellung</strong> Die Mittelstellung kann jetzt manuell eingestellt werden. Die Option befindet sich unter &bdquo;Bewegung / Feineinstellung&ldquo;.</li><li><strong>Version 1.06 hatte bei einigen Zentralen eine geringere Erkennungsrate von DCC-Befehlen.</strong> Dies wurde jetzt behoben. Wenn bereits auf 1.06 aktualisiert wurde und kein DCC verwendet wird, kann Version 1.06 weiterhin verwendet werden.</li></ol>", 
+			"en": "<ol><li><strong>Communication with the IR Scanner via a single wire. </strong>Any input wire can be used, and the turnout detects the Scanner automatically. This allows a single Scanner to control two turnouts, each with all three possible positions.</li><li><strong>Manual adjustment of the middle position. </strong>The middle position can now be adjusted manually. This option can be found under &ldquo;Motion control / Finetuning&rdquo;.</li><li><strong>Version 1.06 had a reduced detection rate for DCC commands with some command stations.</strong> This has now been fixed. If you have already updated to 1.06 and do not use DCC, you can continue using version 1.06.</li></ol>" },
+        "experimental": 0,
+        "requires_carmanager": "1.36",
+        "url": "https://www.dropbox.com/scl/fi/w4ds0sdm6nc0vd1kzvw1h/abzweig-1.08.vgu?rlkey=vhxqq6ysy8bkm92j53ftr4dzv&dl=1",
+		"bytes": 15356,
+		"sha256": "3296b3ab840341ced0d10dc6f48f3ee29633cd0c4528ea30c2a6bc9d29541f6a"
+      }
+    ]
+  },
+
+  "products": {
+    "3010": { "product_type": "Actros", "beacon": 2, "firmware": "vehicle", "handshake": "Viess3010" },
+
+    "8010": { "product_type": "Actros", "sound_module": "8456", "beacon": 2, "firmware": "vehicle" },
+    "8011": { "product_type": "Actros", "sound_module": "8455", "beacon": 2, "firmware": "vehicle" },
+    "8014": { "product_type": "Actros", "sound_module": "8456", "beacon": 2, "firmware": "vehicle" },
+    "8015": { "product_type": "Actros", "sound_module": "8456", "beacon": 2, "firmware": "vehicle" },
+    "8023": { "product_type": "Actros", "sound_module": "8455", "beacon": 2, "firmware": "vehicle" },
+    "8030": { "product_type": "Actros", "sound_module": "8455", "beacon": 0, "firmware": "vehicle" },
+    "8031": { "product_type": "Actros", "sound_module": "8456", "beacon": 2, "firmware": "vehicle" },
+    "8032": { "product_type": "Actros", "sound_module": "8456", "beacon": 2, "firmware": "vehicle" },
+    "8033": { "product_type": "Actros", "sound_module": "8456", "beacon": 0, "firmware": "vehicle" },
+    "8040": { "product_type": "Actros", "sound_module": "8455", "beacon": 2, "firmware": "vehicle" },
+    "8041": { "product_type": "Actros", "sound_module": "8456", "beacon": 2, "firmware": "vehicle" },
+    "8050": { "product_type": "Actros", "sound_module": "8455", "beacon": 2, "firmware": "vehicle" },
+    "8053": { "product_type": "Actros", "sound_module": "8455", "beacon": 2, "firmware": "vehicle" },
+    "8070": { "product_type": "Actros", "sound_module": "8455", "beacon": 2, "firmware": "vehicle" },
+    "8114": { "product_type": "Actros_v8S", "sound_module": "8456", "beacon": 0, "firmware": "vehicle" },
+    "8115": { "product_type": "Actros_v8L", "sound_module": "8456", "beacon": 0, "firmware": "vehicle" },
+    "8116": { "product_type": "-", "sound_module": "8456", "beacon": 0, "firmware": "vehicle" },
+    "8117": { "product_type": "-", "sound_module": "8455", "beacon": 2, "firmware": "vehicle" },
+    "8160": { "product_type": "-", "sound_module": "8456", "beacon": 2, "firmware": "vehicle" },
+	"8004": { "product_type": "Actros", "sound_module": "8455", "beacon": 2, "firmware": "vehicle" },	
+    "8120": { "product_type": "Actros", "sound_module": "8456", "beacon": 0, "firmware": "vehicle" },
+    "8122": { "product_type": "Actros", "sound_module": "8456", "beacon": 0, "firmware": "vehicle" },
+    "8118": { "product_type": "Actros", "sound_module": "8456", "beacon": 0, "firmware": "vehicle" },
+    "8113": { "product_type": "Actros", "sound_module": "8455", "beacon": 0, "firmware": "vehicle" },
+
+    "8012": { "product_type": "Magirus", "sound_module": "8450", "beacon": 0, "firmware": "vehicle" },
+    "8013": { "product_type": "Magirus", "sound_module": "8452", "beacon": 0, "firmware": "vehicle" },
+    "8018": { "product_type": "Magirus", "sound_module": "8450", "beacon": 0, "firmware": "vehicle" },
+    "8021": { "product_type": "Magirus", "sound_module": "8452", "beacon": 2, "firmware": "vehicle" },
+    "8051": { "product_type": "Magirus", "sound_module": "8452", "beacon": 0, "firmware": "vehicle" },
+    "8054": { "product_type": "Magirus", "sound_module": "8452", "beacon": 0, "firmware": "vehicle" },
+    "8055": { "product_type": "Magirus_v8L", "sound_module": "8452", "beacon": 0, "firmware": "vehicle" },
+    "8065": { "product_type": "Magirus_v8L", "sound_module": "8452", "beacon": 0, "firmware": "vehicle" },
+    "8060": { "product_type": "Magirus_v8L", "sound_module": "8452", "beacon": 0, "firmware": "vehicle" },
+    "8071": { "product_type": "Magirus", "sound_module": "8452", "beacon": 0, "firmware": "vehicle" },
+    "8130": { "product_type": "Magirus_v8SATT", "sound_module": "8452", "beacon": 0, "firmware": "vehicle" },
+    "8131": { "product_type": "Magirus_v8ARAL", "sound_module": "8450", "beacon": 0, "firmware": "vehicle" },
+    "8132": { "product_type": "Magirus_v8ARAL", "sound_module": "8452", "beacon": 0, "firmware": "vehicle" },
+    "8133": { "product_type": "Magirus_v8KIPP", "sound_module": "8452", "beacon": 0, "firmware": "vehicle" },
+    "8135": { "product_type": "Magirus_v8BAGG", "sound_module": "8450", "beacon": 0, "firmware": "vehicle" },
+    "8061": { "product_type": "Magirus", "sound_module": "8452", "beacon": 0, "firmware": "vehicle" },
+
+    "8016": { "product_type": "Rundhauber", "sound_module": "8454", "beacon": 0, "firmware": "vehicle" },
+    "8017": { "product_type": "Rundhauber", "sound_module": "8453", "beacon": 0, "firmware": "vehicle" },
+    "8019": { "product_type": "Rundhauber", "sound_module": "8451", "beacon": 0, "firmware": "vehicle" },
+    "8020": { "product_type": "Rundhauber", "sound_module": "8454", "beacon": 0, "firmware": "vehicle" },
+    "8022": { "product_type": "Rundhauber", "sound_module": "8453", "beacon": 2, "firmware": "vehicle" },
+    "8034": { "product_type": "Rundhauber", "sound_module": "8453", "beacon": 0, "firmware": "vehicle" },
+    "8035": { "product_type": "Rundhauber", "sound_module": "8453", "beacon": 0, "firmware": "vehicle" },
+    "8036": { "product_type": "Rundhauber", "sound_module": "8454", "beacon": 0, "firmware": "vehicle" },
+    "8052": { "product_type": "Rundhauber", "sound_module": "8453", "beacon": 2, "firmware": "vehicle" },
+    "8072": { "product_type": "Rundhauber", "sound_module": "8453", "beacon": 2, "firmware": "vehicle" },
+    "8152": { "product_type": "Rundhauber_v8L", "sound_module": "8454", "beacon": 0, "firmware": "vehicle" },
+    "8155": { "product_type": "Rundhauber_v8S", "sound_module": "8454", "beacon": 0, "firmware": "vehicle" },
+    "8161": { "product_type": "-", "sound_module": "8453", "beacon": 0, "firmware": "vehicle" },
+
+    "8601": { "product_type": "-", "sound_module": "8456", "beacon": 0, "firmware": "vehicle" },
+    "8602": { "product_type": "-", "sound_module": "8450", "beacon": 0, "firmware": "vehicle" },
+    "8603": { "product_type": "-", "sound_module": "8451", "beacon": 0, "firmware": "vehicle" },
+	
+	"8110": { "product_type": "AWM", "beacon": 0, "firmware": "vehicle" },
+	"8112": { "product_type": "AWM", "beacon": 0, "firmware": "vehicle" },
+	"8190": { "product_type": "AWM", "beacon": 0, "firmware": "vehicle" },
+	"8191": { "product_type": "AWM", "beacon": 0, "firmware": "vehicle" },
+	"8124": { "product_type": "AWM", "beacon": 0, "firmware": "vehicle" },
+
+    "8427": { "product_type": "Universal", "beacon": 2, "firmware": "vehicle" },
+    "8447": { "product_type": "Universal", "beacon": 0, "firmware": "vehicle" },
+
+    "VW1P": { "product_type": "Beetle", "beacon": 0, "firmware": "vehicle" },
+    "8090": { "product_type": "Beetle", "beacon": 0, "firmware": "vehicle" },
+
+    "8403": { "product_type": "IR_mini", "beacon": 0, "firmware": "ir-mini", "handshake": "ViessIRmi", "test" : "test" },
+
+	"8406": { "firmware": "IR_scanner" },
+    "8408": { "firmware": "inductive-charger" },
+    "8446": { "firmware": "turnout" },
+    "8448": { "firmware": "turnout" }
+  }
+}
