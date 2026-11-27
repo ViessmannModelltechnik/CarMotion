@@ -10,7 +10,7 @@
         "description": { 
 			"de": "<ol><li><p><strong>Online-Update-Repository</strong>: Firmware- und CarManager Updates k&ouml;nnen jetzt mit einem einzigen Klick direkt aus dem CarManager heraus installiert werden.</p></li><li><p><strong>Unterst&uuml;tzung f&uuml;r den Muldenkipper hinzugef&uuml;gt</strong>: Einschlie&szlig;lich einer neuen Benutzeroberfl&auml;che mit Einstellungen und Beschreibungen der verf&uuml;gbaren Funktionen.</p></li></ol>", 
 			"en": "<ol><li><p><strong>Online update repository:</strong> Firmware and application updates can now be installed with a single click directly from within the application.</p></li><li><p><strong>Added dump truck support:</strong> Includes a new user interface with settings and descriptions of the available functions.</p></li></ol>" },
-        "experimental": 0,
+        "experimental": q,
         "denominator": "1.36",
         "artifacts": [
           {
