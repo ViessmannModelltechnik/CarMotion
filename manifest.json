@@ -25,26 +25,6 @@
           }
         ]
       },
-	  {
-        "version": "1.36.14",
-        "description": { 
-			"de": "<ol><li><p><strong>Online-Update-Repository</strong>: Firmware- und CarManager Updates k&ouml;nnen jetzt mit einem einzigen Klick direkt aus dem CarManager heraus installiert werden.</p></li><li><p><strong>Unterst&uuml;tzung f&uuml;r den Muldenkipper hinzugef&uuml;gt</strong>: Einschlie&szlig;lich einer neuen Benutzeroberfl&auml;che mit Einstellungen und Beschreibungen der verf&uuml;gbaren Funktionen.</p></li></ol>", 
-			"en": "<ol><li><p><strong>Online update repository:</strong> Firmware and application updates can now be installed with a single click directly from within the application.</p></li><li><p><strong>Added dump truck support:</strong> Includes a new user interface with settings and descriptions of the available functions.</p></li></ol>" },
-        "experimental": 1,
-        "denominator": "1.36",
-        "artifacts": [
-          {
-			"date" : "2026-11-17",
-            "os": "windows",
-            "arch": "x64",
-            "part": "installer",
-            "filename": "CarManager 1.36.14 setup.exe",
-            "url": "Xlni7SXMVuzFnc6Sh71VgqWMbCcGBxUvzWsw+i81Dbrxgu57MbvANzGdxxjL3CABI8VllE4Fk+fRG52C3eBYdXECmgcxi87X3rT56DPdHQOWtVOufs84ZLLlrVs1moxI9kTwxiKZKdXB1gohnorG26MBvL3QXG6ErSa+7b2/Mk3lWuFXep0K0y0C71PwB6DoQJBCA3rQDbh+Eq6iSlU=",
-			"bytes": 8462137,
-			"sha256": "598d5c78d2cd9e5d57cf768b802320e585f75a7efb3aab4f96f0804f53c7b766"
-          }
-        ]
-      },
       {
         "version": "1.36",
         "description": { 
@@ -59,7 +39,7 @@
             "arch": "x64",
             "part": "installer",
             "filename": "CarManager 1.36 x64.exe",
-            "url": "https://viessmann-modell.com/downloads/file/01a0e7d62b9073dc9e2fb19b5fe544f2",
+            "url": "https://github.com/ViessmannModelltechnik/CarMotion/releases/download/app_1.36/CarManager_1.36_x64.exe",
             "bytes": 31441952,
             "sha256": "199a1041555417e73c41fd4806773dd331f382a13de6a0b9fa5e0afc4e0e1314"
           },
@@ -69,7 +49,7 @@
             "arch": "x64",
             "part": "installer",
             "filename": "CarManager 1.36.dmg",
-            "url": "https://viessmann-modell.com/downloads/file/01a0e7f27dd473b986fd7f404bd8bd90",
+            "url": "https://github.com/ViessmannModelltechnik/CarMotion/releases/download/app_1.36/CarManager_1.36.dmg",
 			"bytes": 48709120,
 			"sha256": "275039e0920e1470a6527d54ae8ae51c1e4dbe940f8445f0ad608822586eed37"
           }
@@ -89,7 +69,7 @@
             "arch": "x64",
             "part": "installer",
             "filename": "CarManager 1.32 x64.exe",
-            "url": "https://viessmann-modell.com/downloads/file/01a0e7d69100714c9f659a0734b27c4b",
+            "url": "https://github.com/ViessmannModelltechnik/CarMotion/releases/download/app_1.32/CarManager_1.32_x64.exe",
             "bytes": 30520760,
             "sha256": "68c9008fa55f1738c5562eb7b268b11057c27ec211772b3c09bdd100e906863f"
           },
@@ -99,7 +79,7 @@
             "arch": "x64",
             "part": "installer",
             "filename": "CarManager 1.32.dmg",
-            "url": "https://viessmann-modell.com/downloads/file/01a0e7d6910173c782b1ecc51ca5c72e",
+            "url": "https://github.com/ViessmannModelltechnik/CarMotion/releases/download/app_1.32/CarManager_1.32.dmg",
 			"bytes": 53671642,
 			"sha256": "b1b99ca508d21db80b054da0aaf20af5b4fbb40074f05af1dbd3a1dbb1ea28b3"
           }
@@ -119,7 +99,7 @@
             "arch": "x64",
             "part": "installer",
             "filename": "CarManager 1.30 x64.exe",
-            "url": "https://viessmann-modell.com/en/downloads/file/019d86fd75fa7213a1fa7ca7e8030cb8",
+            "url": "https://github.com/ViessmannModelltechnik/CarMotion/releases/download/app_1.30/CarManager_1.30_x64.exe",
 			"bytes": 28544768,
 			"sha256": "515c4991514308c482222b9392dc9bbe499f6c4eb4cba59d3e693c4bc4bbaada"
           },
@@ -129,7 +109,7 @@
             "arch": "x64",
             "part": "installer",
             "filename": "CarManager 1.30.dmg",
-            "url": "https://viessmann-modell.com/downloads/file/019d86fd75fb71cf806f043425d6c0ff",
+            "url": "https://github.com/ViessmannModelltechnik/CarMotion/releases/download/app_1.30/CarManager_1.30.dmg",
 			"bytes": 54724904,
 			"sha256": "4e498525e933125eb9c15aff65e412b0608deb669d98ab2adba2302f1912c957"
           }		  
@@ -149,7 +129,7 @@
         "experimental": 0,
 		"exclusive_to": ["8601", "8602", "8603"],
         "requires_carmanager": "1.36",
-		"url": "https://www.dropbox.com/scl/fi/ye1klyquw7341wd4luwb9/car-1.54.vgu?rlkey=egudes77mikizsvzc7jqvvtde&dl=1",
+		"url": "https://github.com/ViessmannModelltechnik/CarMotion/releases/download/car_1.54/vehicle-1.54",
 		"bytes": 32255,
 		"sha256": "2505485d8598c98409061248c97cf813790412186020eb13c3dc1ad9d8d88670"
 	  },
@@ -161,7 +141,7 @@
 			"en": "<ol><li><strong>Added support for the IR Scanner (8406)</strong>, featuring a new user interface with settings and function descriptions. Additional user interface for new features of vehicles, inductive charger, und turnout.&nbsp;</li><li><strong>Browse device settings without connecting hardware</strong>&nbsp;<br />When no programmer is connected, the user interface now remains available. You can select any supported CarMotion device to explore its settings, features and available options, even without any hardware connected.&nbsp;</li><li><strong>Bug fix: </strong>Fixed an issue where vehicle departure delays greater than 15 seconds were not handled correctly.&nbsp;</li><li><strong>Support </strong>for the additional outputs of the Universal Electronics module.&nbsp;</li><li><strong>New &quot;Behaviour during long stop&quot; options for vehicles</strong>&nbsp;<br />It is now possible to disable the brake lights or automatically execute a macro while the vehicle is stopped.&nbsp;Vehicle firmware version 1.50 or later is required.</li></ol>" },
         "experimental": 0,
         "requires_carmanager": "1.36",
-        "url": "https://www.dropbox.com/scl/fi/6zm3z3s8q4tzfero298g8/car-1.52.vgu?rlkey=2z1svi5tnm6jt5hz4xfr90a5r&dl=1",
+        "url": "https://github.com/ViessmannModelltechnik/CarMotion/releases/download/car_1.52/vehicle-1.52",
 		"bytes": 32255,
 		"sha256": "8936fc0c4f60b38b1f39c035df8a00f8165d3845591c48d965fd2d7a9ef273ef"
       },
@@ -173,7 +153,7 @@
 			"en": "<ol><li><strong>Added support for the rolling highway.</strong> A rolling highway is a system in which road vehicles are carried on rail wagons for transport. To activate this mode, an IR Mini with at least version 1.08 is required.</li><li><strong>Added support for custom wheel sizes.</strong> Vehicles now use a flexible speed and distance calculation based on the wheel diameter, which can be configured in the CarManager.</li><li><strong>Improved DCC reliability.</strong> Due to optimisation issues, the previous version (1.44) had a lower detection rate of DCC commands with some command stations. This has now been fixed.</li><li>Fixed a rare bug causing unintended lane switching when using inductive charging in combination with a South magnet. If a South magnet was used for braking before a charger and positioned such that, during charging, the following vehicle stopped exactly on the magnet due to the infrared adaptive cruise control, it could in rare cases interpret the single South magnet as two magnets and execute the corresponding command (lane switching by default).</li><li>Encountering another South magnet while braking now extends the braking distance limit again. This behaviour existed previously but was accidentally removed in an earlier update.</li><li>Corrected behaviour of switching off roof beacons during long stops. A previous update caused this option to switch off the turn indicators instead.</li></ol>" },
         "experimental": 0,
         "requires_carmanager": "1.36",
-        "url": "https://www.dropbox.com/scl/fi/vqqt7of7ym0t6bbonbghu/car-1.48.vgu?rlkey=r7bxs893008lcq0tn0z65bajh&dl=1",
+        "url": "https://github.com/ViessmannModelltechnik/CarMotion/releases/download/car_1.48/vehicle-1.48",
 		"bytes": 32255,
 		"sha256": "51d30317a11f5f52c1b621655f83ad59e427eadd3465773275fc1a4ca4676c91"
       },
@@ -185,7 +165,7 @@
 			"en": "<p><strong>1. Support for sound modules added&nbsp;</strong></p><p>Vehicles can now detect and communicate with sound retrofit kits. Macros, the remote controller, and other control options can be used to trigger various sounds.&nbsp;</p><p><strong>2. Immediate completion of traffic lane switch now available for the Inductive Charger&nbsp;</strong></p><p>The option to complete a traffic lane change immediately can now be enabled for the Inductive Charger as well. It must be activated individually in the charger's settings.&nbsp;</p><p><strong>3. Automatic brightness adjustment for the expansion output to compensate for variable voltage</strong>&nbsp;</p><p>When the high-voltage output for the expansion output is variable (to allow smoother motor control at very low speeds), the brightness of the expansion output used to vary depending on the voltage. A new option now automatically adjusts the output to compensate for these voltage differences, keeping the brightness constant.&nbsp;</p><p><strong>4. New options for the expansion output</strong>&nbsp;</p><p>The expansion output can now individually copy the low beam, high beam, or brake lights, independent from other functions that affect the same LEDs. A new custom sequence option is also available, with adjustable timings.</p>" },
         "experimental": 0,
         "requires_carmanager": "1.36",
-        "url": "https://www.dropbox.com/scl/fi/ewknhil7d43cp04xq538k/car-1.44.vgu?rlkey=fjd6vbgukc74tw1izj3qve8na&dl=1",
+        "url": "https://github.com/ViessmannModelltechnik/CarMotion/releases/download/car_1.44/vehicle-1.44",
 		"bytes": 32255,
 		"sha256": "6691cc419373686dfc6cdbdf1392c6a4957d355d853e3e7656ecf83aee0fef99"
       }
@@ -199,7 +179,7 @@
 			"en": "<ol><li><strong>Added support for the rolling highway</strong>, featuring a new user interface for the IR Mini with settings and function descriptions. A rolling highway is a system in which road vehicles are carried on rail wagons for transport. The IR Mini can activate and deactivate this mode for vehicles and control various functions during operation.</li><li><strong>Added a configurable delay for the input wire.</strong> This can be found under &ldquo;Finetuning&rdquo; and is especially useful for rolling highway operation when controlled by track-occupancy detectors.</li><li><strong>Added support for the alternating mode of the 5099 traffic light as an input.</strong> If the 5099 traffic light is controlling the IR Mini, now the alternating mode of the 5099 can also be used. This enables the separate control of multiple IR Minis, so that each traffic direction has one, including support for T-junctions.</li><li><strong>Added configurable delay for vehicles</strong> in the traffic control operation mode.</li></ol>" },
         "experimental": 0,
         "requires_carmanager": "1.36",
-        "url": "https://www.dropbox.com/scl/fi/emlgax07q7r8misl3s8i9/IR-Mini-1.08.vgu?rlkey=3chxg5h4j7enwydnh9m6f74pe&dl=1",
+        "url": "https://github.com/ViessmannModelltechnik/CarMotion/releases/download/ir-mini-1.08/ir-mini-1.08",
 		"bytes": 6186,
 		"sha256": "f1aeab584993f990187a0bbf2f5686200fb11d640fe93803b25d8658f2c2ab1c"
       }
@@ -213,7 +193,7 @@
 			"en": "<ol><li><strong>Counting foreign vehicles with input wires configured as &ldquo;Detector&rdquo;:&nbsp;</strong><br />If only a detector entry is configured, without a detector exit, the count can only increase to 1. Since the automatic timeout must be used in this case, the timeout starts again with each newly detected vehicle.&nbsp;</li><li><strong>New option to complete a lane change immediately upon arrival.&nbsp;</strong><br />This option is available in the Events window and can be configured based on the vehicle length. Previously, this option was only available for vehicles when using permanent magnets. It can now be configured individually for each Charger. In a serial charging station, the option is always active, but the vehicle length is only taken into account for the entry Charger, as the other Chargers deactivate the IR transmitters instead of using lanes.&nbsp;</li><li><strong>The command for switching vehicles off is now forwarded along the EasyChain.&nbsp;</strong></li><li><strong>Fully automatic serial charging station controlled by the IR Scanner (8406).&nbsp;</strong><br />When an IR Scanner is used, the entry and exit nodes no longer need to be configured manually. The Scanner configures them automatically.&nbsp;</li><li><strong>Long vehicles on the second-to-last charging position.</strong>&nbsp;<br />If a long vehicle is on the second-to-last charging position in a serial charging station, its IR transmitter is no longer switched off. This is necessary to avoid collisions, as the entry Charger can no longer stop oncoming vehicles if it is covered by the overhang of the long vehicle. For the Charger to determine that it is the second-to-last position, either a complete circular EasyChain connection with the Scanner is required, or the number of Chargers must be configured manually in the exit Charger.&nbsp;</li><li><strong>New option for the input wires: eject vehicle.&nbsp;</strong><br />This option allows a vehicle to be sent away regardless of the current Charger mode.</li></ol>" },
         "experimental": 0,
         "requires_carmanager": "1.36",
-        "url": "https://www.dropbox.com/scl/fi/kp13y35x07fbzcsiyhbkq/Inductive-Charger-1.14.vgu?rlkey=xk1vmou3bkv5cr6o7utr51j5s&dl=1",
+        "url": "https://github.com/ViessmannModelltechnik/CarMotion/releases/download/inductive-charger-1.14/inductive-charger-1.14",
 		"bytes": 20481,
 		"sha256": "af203c5dc934405e02a9f5b334d02c5ebca94ef5f4620f17299f0091da76aa73"
       }
@@ -227,7 +207,7 @@
 			"en": "<ol><li><strong>Communication with the IR Scanner via a single wire. </strong>Any input wire can be used, and the turnout detects the Scanner automatically. This allows a single Scanner to control two turnouts, each with all three possible positions.</li><li><strong>Manual adjustment of the middle position. </strong>The middle position can now be adjusted manually. This option can be found under &ldquo;Motion control / Finetuning&rdquo;.</li><li><strong>Version 1.06 had a reduced detection rate for DCC commands with some command stations.</strong> This has now been fixed. If you have already updated to 1.06 and do not use DCC, you can continue using version 1.06.</li></ol>" },
         "experimental": 0,
         "requires_carmanager": "1.36",
-        "url": "https://www.dropbox.com/scl/fi/w4ds0sdm6nc0vd1kzvw1h/abzweig-1.08.vgu?rlkey=vhxqq6ysy8bkm92j53ftr4dzv&dl=1",
+        "url": "https://github.com/ViessmannModelltechnik/CarMotion/releases/download/turnout-1.08/turnout-1.08",
 		"bytes": 15356,
 		"sha256": "3296b3ab840341ced0d10dc6f48f3ee29633cd0c4528ea30c2a6bc9d29541f6a"
       }
